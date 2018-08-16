@@ -68,4 +68,4 @@ class AboutExceptions(Koan):
         finally:
             result = 'always run'
 
-        self.assertEqual('always run', result)
+        self.assertEqual(__, result)

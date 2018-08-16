@@ -52,4 +52,4 @@ class AboutSets(Koan):
         self.assertEqual(True, set('cake') <= set('cherry cake'))
         self.assertEqual(True, set('cake').issubset(set('cherry cake')) )
 
-        self.assertEqual(False, set('cake') > set('pie'))
+        self.assertEqual(__, set('cake') > set('pie'))

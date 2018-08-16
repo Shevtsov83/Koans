@@ -58,4 +58,4 @@ class AboutComprehension(Koan):
         self.assertEqual(False, 'first' in dict_comprehension)
         self.assertEqual(True, 'FIRST' in dict_comprehension)
         self.assertEqual(5, len(dict_of_weapons))
-        self.assertEqual(4, len(dict_comprehension))
+        self.assertEqual(5, len(dict_comprehension))
