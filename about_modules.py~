@@ -73,5 +73,5 @@ class AboutModules(Koan):
         self.assertEqual("Cuddles", lizard.name)
 
         # SecretDuck? Never heard of her!
-        with self.assertRaises(NameError):
+        with self.assertRaises(___):
             duck = SecretDuck()
